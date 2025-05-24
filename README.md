@@ -46,13 +46,11 @@ Voucher de 5 euros:
 Informações Importantes:
 Apenas Suporte Básico
 
-Notas Internas:
-Corrigimos os seguintes bugs do código original da PLW:
-Criação de Conexões - Erro de Coluna inexistente.
-Erro na mensagem de fora de expediente.
-Nome dos dias da semana no modal de filas.
-Não cria faturas / não edita empresas.
-Ainda não temos correção: Importar Contatos = Provavelmente será corrigido só por eles, pôs não consegui encontrar onde corrigir no código.
+Notas Internas:</br>
+Nova Atualização de Maio de 2025</br>
+Mantido Versão 6.0.0</br>
+Avaliaremos se os seguintes bugs das versão beta e a de abril foram corrigidos pelo próprio desenvolvedor: 
+Erro de Conexão, Erro Mensagem Fora do Expediente, Nome dos dias no modal de filas, não criar faturas, não editar empresas, importar contatos do telefone, não enviar e-mail de recuperação de senha.
 
 📅 16/04/2025 – Versão 6.0.0
 
