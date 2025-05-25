@@ -2500,11 +2500,11 @@ const filterMessages = (msg: WAMessage): boolean => {
 
   if (
     [
-      WAMessageStubType.REVOKE,
-      WAMessageStubType.E2E_DEVICE_CHANGED,
-      WAMessageStubType.E2E_IDENTITY_CHANGED,
-      WAMessageStubType.CIPHERTEXT
-    ].includes(msg.messageStubType as WAMessageStubType)
+    WAMessageStubType.REVOKE,
+    WAMessageStubType.E2E_DEVICE_CHANGED,
+    WAMessageStubType.E2E_IDENTITY_CHANGED,
+    WAMessageStubType.CIPHERTEXT
+  ].includes(msg.messageStubType as (typeof WAMessageStubType)[keyof typeof WAMessageStubType])
   )
     return false;
 
